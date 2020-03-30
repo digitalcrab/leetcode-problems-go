@@ -8,7 +8,7 @@
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [Most Common Word](https://leetcode.com/problems/most-common-word/)
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 - [ ] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 - [ ] [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files)

@@ -10,6 +10,7 @@ package problems
 //
 // Time complexity : O(n) because we simply traverse the given string one character at a time
 // and push and pop operations on a stack take O(1) time.
+//
 // Space complexity : O(n) as we push all opening brackets onto the stack and in the worst case,
 // we will end up pushing all the brackets onto the stack.
 //
@@ -24,8 +25,10 @@ func IsValidParentheses(s string) bool {
 		'[': ']',
 	}
 
-	// some sort of stack
-	// todo: we can use another stack implementation to save some space, but in a worst case it would be O(n) anyways
+	// use slice as a form of stack, allocate as much memory as it possible at the beginning,
+	// so `append` will be O(1) (no need to resize)
+	//
+	// we can use another stack implementation to save some space, but in a worst case it would be O(n) anyways
 	stack := make([]rune, 0, len(s))
 
 	for _, c := range s {
