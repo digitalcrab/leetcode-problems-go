@@ -20,6 +20,8 @@
 - [ ] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 - [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 
+- [x] Helper Stack
+
 ### 06 April - 12 April
 
 ### 13 April - 19 April
