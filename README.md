@@ -4,7 +4,7 @@
 
 ### 30 March - 05 April
 
-- [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [Most Common Word](https://leetcode.com/problems/most-common-word/)
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
@@ -20,7 +20,7 @@
 - [ ] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 - [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 
-- [x] Helper Stack
+- [x] Stack (helper)
 
 ### 06 April - 12 April
 
