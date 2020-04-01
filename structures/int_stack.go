@@ -1,4 +1,4 @@
-package algorithms
+package structures
 
 type intStackNode struct {
 	prev  *intStackNode

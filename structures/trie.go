@@ -1,4 +1,4 @@
-package algorithms
+package structures
 
 type trieNode struct {
 	children map[byte]*trieNode
