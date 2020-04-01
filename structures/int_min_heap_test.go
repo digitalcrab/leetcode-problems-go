@@ -17,9 +17,9 @@ func TestIntMinHeap(t *testing.T) {
 	if v := heap.poll(); v != 2 {
 		t.Errorf("unexpected result %d -> %d", v, 2)
 	}
-	heap.poll()
-	heap.poll()
-	heap.poll()
+	heap.poll() // 4
+	heap.poll() // 6
+	heap.poll() // 8
 	if v := heap.poll(); v != 10 {
 		t.Errorf("unexpected result %d -> %d", v, 10)
 	}
