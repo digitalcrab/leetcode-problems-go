@@ -19,6 +19,7 @@
 
 ### Data structures
 
+- [x] Max Heap
 - [x] Min Heap
 - [x] Stack
 - [x] Tree
