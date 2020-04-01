@@ -22,6 +22,8 @@
 
 - [x] Stack
 - [x] Tree
+- [x] Trie
+- [x] Min Heap
 
 ### 06 April - 12 April
 
