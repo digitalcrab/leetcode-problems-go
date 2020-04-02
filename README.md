@@ -12,6 +12,7 @@
 - [ ] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 - [ ] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)
+- [x] [Happy Number](https://leetcode.com/problems/happy-number/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Single Number](https://leetcode.com/problems/single-number/)
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/)

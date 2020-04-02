@@ -12,26 +12,30 @@ func ReverseInteger(x int) int {
 
 	// loop over example 123
 	for x != 0 {
+		// getting the last digit
 		// 1) 123 % 10 = 3; 2) 12 % 10 = 2; 3) 1 % 10 = 1
-		mod := x % 10
+		lastDigit := x % 10
 
+		// leftover of the original number
 		// 1) 123 / 10 = 12; 2) 12 / 10 = 1; 3) 1 / 10 = 0
 		x = x / 10
 
 		// before we multiply by 10 we have to check the current value by dividing max int by 10
 
 		// 2147483647 / 10 = 214748364 and only 7 left
-		if res > math.MaxInt32/10 || (res == math.MaxInt32/10 && mod > 7) {
+		if res > math.MaxInt32/10 || (res == math.MaxInt32/10 && lastDigit > 7) {
 			return 0
 		}
 
 		// -2147483648 / 10 = -214748364 and only -8 left
-		if res < math.MinInt32/10 || (res == math.MinInt32/10 && mod < -8) {
+		if res < math.MinInt32/10 || (res == math.MinInt32/10 && lastDigit < -8) {
 			return 0
 		}
 
+		// restore the number in another order,
+		// moving res order to the right by multiplying by 10 and adding digit from the right of original
 		// 1) 0 * 10 + 3 = 3; 2) 3 * 10 + 2 = 32; 3) 32 * 10 + 1 = 321
-		res = res*10 + mod
+		res = res*10 + lastDigit
 	}
 
 	return res
