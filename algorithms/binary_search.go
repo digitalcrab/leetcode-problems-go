@@ -21,6 +21,7 @@ func binarySearchIterative(array []int, x int) bool {
 	return false
 }
 
+// Time Complexity: O(log(n))
 func binarySearchRecursive(array []int, x int) bool {
 	var search func(array []int, x, left, right int) bool
 
