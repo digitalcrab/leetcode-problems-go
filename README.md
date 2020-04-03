@@ -10,7 +10,7 @@
 - [ ] [Most Common Word](https://leetcode.com/problems/most-common-word/)
 - [ ] [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files)
 - [ ] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
-- [ ] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
+- [x] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)
 - [x] [Happy Number](https://leetcode.com/problems/happy-number/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
