@@ -7,7 +7,7 @@
 - [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Min Stack](https://leetcode.com/problems/min-stack)
-- [ ] [Most Common Word](https://leetcode.com/problems/most-common-word/)
+- [x] [Most Common Word](https://leetcode.com/problems/most-common-word/)
 - [x] [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files)
 - [ ] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 - [x] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
