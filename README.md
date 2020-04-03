@@ -2,7 +2,7 @@
 
 ### Problems
 
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [ ] [Flood Fill](https://leetcode.com/problems/flood-fill)
 - [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
