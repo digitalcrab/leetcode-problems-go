@@ -4,33 +4,40 @@ func QuickSort(nums []int) {
 	quickSort(nums, 0, len(nums)-1)
 }
 
-func quickSort(nums []int, left int, right int) {
+func quickSort(nums []int, left, right int) {
 	if left >= right {
 		return
 	}
 
-	partition := quickSortPartition(nums, left, right)
+	// pick randomly
+	pivot := nums[left+(right-left)/2]
+	// split array into parts
+	idx := quickSortPartition(nums, left, right, pivot)
 
-	quickSort(nums, left, partition-1)
-	quickSort(nums, partition+1, right)
+	// sort for every partition
+	quickSort(nums, left, idx-1)
+	quickSort(nums, idx, right)
 }
 
-func quickSortPartition(nums []int, left int, right int) int {
-	// chose pivot (randomly, in the middle, or at the any end)
-	pivot := nums[right]
-	i := left
+func quickSortPartition(nums []int, left, right, pivot int) int {
+	// moving to the middle point (or somewhere they meet each other)
+	for left <= right {
+		// keep moving from left and right simultaneously
+		for nums[left] < pivot {
+			left++
+		}
+		for nums[right] > pivot {
+			right--
+		}
 
-	// loop over chunk
-	for j := left; j < right; j++ {
-		// if current value is lower than pivot we have to swap the place
-		if nums[j] < pivot {
-			nums[i], nums[j] = nums[j], nums[i]
-			i++
+		// if we found element out of order we swat it
+		if left <= right {
+			nums[left], nums[right] = nums[right], nums[left]
+			left++
+			right--
 		}
 	}
 
-	// place pivot on it's position (right it's pivot in this case)
-	nums[i], nums[right] = nums[right], nums[i]
-
-	return i
+	// return new partition point
+	return left
 }
