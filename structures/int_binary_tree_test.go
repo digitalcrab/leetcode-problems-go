@@ -6,17 +6,17 @@ import (
 )
 
 func TestTree(t *testing.T) {
-	root := &intTreeNode{
+	root := &intBinaryTreeNode{
 		value: 4,
-		left: &intTreeNode{
+		left: &intBinaryTreeNode{
 			value: 3,
-			left: &intTreeNode{
+			left: &intBinaryTreeNode{
 				value: 1,
 			},
 		},
-		right: &intTreeNode{
+		right: &intBinaryTreeNode{
 			value: 12,
-			left: &intTreeNode{
+			left: &intBinaryTreeNode{
 				value: 7,
 			},
 		},
