@@ -1,5 +1,9 @@
 package algorithms
 
+// Average Time Complexity: O(n log(n))
+// Worst Time Complexity:   O(n^2) - case of bad pivot
+//
+// Space Complexity: O(log n) - The best case makes at most O(log n) nested recursive calls
 func QuickSort(nums []int) {
 	quickSort(nums, 0, len(nums)-1)
 }
