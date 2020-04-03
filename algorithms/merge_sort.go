@@ -2,6 +2,11 @@ package algorithms
 
 // Time Complexity:  O(n log(n)) - always
 // Space Complexity: O(n) - we have to copy an array
+//
+// Advantages
+//  - Worst case is the same as best case
+//  - Parallelizes well and can achieve close to linear speedup with a trivial implementation
+//  - Is stable
 func MergeSort(nums []int) {
 	mergeSort(nums, make([]int, len(nums)), 0, len(nums)-1)
 }
