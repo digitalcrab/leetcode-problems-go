@@ -30,4 +30,5 @@
 
 ### Algorithms
 
-- [x] Quicksort
+- [x] Merge sort
+- [x] Quick sort
