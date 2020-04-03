@@ -22,14 +22,14 @@ func quickSortPartition(nums []int, left int, right int) int {
 
 	// loop over chunk
 	for j := left; j < right; j++ {
-		// if current value is lower than pivot we have to swap the plase
+		// if current value is lower than pivot we have to swap the place
 		if nums[j] < pivot {
 			nums[i], nums[j] = nums[j], nums[i]
 			i++
 		}
 	}
 
-	// [lace pivot on it's position (right it's pivot in this case)
+	// place pivot on it's position (right it's pivot in this case)
 	nums[i], nums[right] = nums[right], nums[i]
 
 	return i

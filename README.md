@@ -8,7 +8,7 @@
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Min Stack](https://leetcode.com/problems/min-stack)
 - [ ] [Most Common Word](https://leetcode.com/problems/most-common-word/)
-- [ ] [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files)
+- [x] [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files)
 - [ ] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 - [x] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)
