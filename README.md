@@ -20,6 +20,8 @@
 
 ### Data structures
 
+- [x] Graph Breadth-first search
+- [x] Graph Depth-first search
 - [x] Max Heap
 - [x] Min Heap
 - [x] Stack
