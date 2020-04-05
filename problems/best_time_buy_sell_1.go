@@ -11,7 +11,7 @@ import "math"
 // Time complexity : O(n). Only a single pass is needed.
 // Space complexity : O(1). Only two variables are used.
 //
-func MaxProfit(prices []int) int {
+func maxProfit1(prices []int) int {
 	minPrice := math.MaxInt64
 	maxProfit := 0
 
