@@ -2,12 +2,12 @@
 
 ### Problems
 
-- [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [x] [Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [x] [Happy Number](https://leetcode.com/problems/happy-number/)
+- [x] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Min Stack](https://leetcode.com/problems/min-stack/)
 - [x] [Most Common Word](https://leetcode.com/problems/most-common-word/)
