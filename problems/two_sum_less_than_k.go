@@ -29,7 +29,7 @@ import (
 //  - 1 <= K <= 2000
 //
 
-// Time Complexity: O(n*log(n)) + O(n) =
+// Time Complexity: O(n*log(n)) + O(n) = O(n*log(n))
 // Space Complexity: O(log(n))
 func twoSumLessThanK(A []int, K int) int {
 	// sort first, assume it takes - O(n*log(n))
