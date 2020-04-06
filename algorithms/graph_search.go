@@ -50,6 +50,7 @@ func (g *graph) addEdge(source, destination int) error {
 }
 
 // Depth-first-search
+// Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
 func (g *graph) hasPathDFS(source, destination int) bool {
 	s := g.node(source)
 	if s == nil {
@@ -88,6 +89,7 @@ func (g *graph) hasPathDFS(source, destination int) bool {
 }
 
 // Breadth-first search
+// Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
 func (g *graph) hasPathBFS(source, destination int) bool {
 	s := g.node(source)
 	if s == nil {

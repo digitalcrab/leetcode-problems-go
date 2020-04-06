@@ -12,6 +12,7 @@
 - [x] [Min Stack](https://leetcode.com/problems/min-stack/)
 - [x] [Most Common Word](https://leetcode.com/problems/most-common-word/)
 - [x] [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+- [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [x] [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files)
 - [x] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 - [x] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
