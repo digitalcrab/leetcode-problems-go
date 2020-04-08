@@ -10,6 +10,7 @@
 - [x] [Happy Number](https://leetcode.com/problems/happy-number/)
 - [x] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [x] [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [x] [Min Stack](https://leetcode.com/problems/min-stack/)
 - [x] [Most Common Word](https://leetcode.com/problems/most-common-word/)
 - [x] [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
