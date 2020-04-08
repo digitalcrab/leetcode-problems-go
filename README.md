@@ -8,6 +8,7 @@
 - [x] [Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [x] [Happy Number](https://leetcode.com/problems/happy-number/)
+- [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [x] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
