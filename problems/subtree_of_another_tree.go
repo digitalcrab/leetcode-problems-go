@@ -34,19 +34,19 @@ package problems
 // 1   2
 // Return false.
 
-type TreeNode struct {
+type isSubtreeNode struct {
 	Val   int
-	Left  *TreeNode
-	Right *TreeNode
+	Left  *isSubtreeNode
+	Right *isSubtreeNode
 }
 
 // Time complexity: O(s*t) - we traverse S and for every node in S we traverse T
 // Memory complexity: O(s) - the depth of recursion could go till the end of the S tree
-func isSubtree(s *TreeNode, t *TreeNode) bool {
+func isSubtree(s *isSubtreeNode, t *isSubtreeNode) bool {
 	return isSubtreeTraverse(s, t)
 }
 
-func isSubtreeTraverse(s *TreeNode, t *TreeNode) bool {
+func isSubtreeTraverse(s *isSubtreeNode, t *isSubtreeNode) bool {
 	if s == nil {
 		return false
 	}
@@ -59,7 +59,7 @@ func isSubtreeTraverse(s *TreeNode, t *TreeNode) bool {
 	return isSubtreeTraverse(s.Right, t)
 }
 
-func isSubtreeEqual(a *TreeNode, b *TreeNode) bool {
+func isSubtreeEqual(a *isSubtreeNode, b *isSubtreeNode) bool {
 	if a == nil && b == nil {
 		return true
 	}

@@ -3,13 +3,13 @@ package problems
 import "testing"
 
 func TestIsSubtree(t *testing.T) {
-	node := func(v int, l, r *TreeNode) *TreeNode {
-		return &TreeNode{Val: v, Left: l, Right: r}
+	node := func(v int, l, r *isSubtreeNode) *isSubtreeNode {
+		return &isSubtreeNode{Val: v, Left: l, Right: r}
 	}
 
 	cases := []struct {
-		s        *TreeNode
-		t        *TreeNode
+		s        *isSubtreeNode
+		t        *isSubtreeNode
 		expected bool
 	}{
 		{
