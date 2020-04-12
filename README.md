@@ -10,6 +10,7 @@
 - [x] [Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [x] [Happy Number](https://leetcode.com/problems/happy-number/)
+- [x] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [x] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
