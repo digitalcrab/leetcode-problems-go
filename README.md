@@ -29,6 +29,7 @@
 - [x] [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [x] [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/solution/)
 
 ### Data structures
 
