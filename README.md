@@ -11,9 +11,9 @@
 - [x] [Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [x] [Happy Number](https://leetcode.com/problems/happy-number/)
+- [x] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-- [x] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [x] [Min Stack](https://leetcode.com/problems/min-stack/)
@@ -24,12 +24,13 @@
 - [x] [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files)
 - [x] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 - [x] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
+- [x] [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
 - [x] [Single Number](https://leetcode.com/problems/single-number/)
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)
 - [x] [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [x] [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/solution/)
+- [x] [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)
 
 ### Data structures
 
