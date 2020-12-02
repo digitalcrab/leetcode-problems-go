@@ -14,6 +14,7 @@
 - [x] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [x] [Min Stack](https://leetcode.com/problems/min-stack/)
