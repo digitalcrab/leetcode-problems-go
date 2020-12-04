@@ -11,6 +11,7 @@
 - [x] [Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [x] [Happy Number](https://leetcode.com/problems/happy-number/)
+- [x] [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)
 - [x] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 - [x] [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)
