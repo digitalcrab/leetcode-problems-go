@@ -30,6 +30,7 @@
 - [x] [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
 - [x] [Single Number](https://leetcode.com/problems/single-number/)
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)
+- [x] [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)
 - [x] [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
