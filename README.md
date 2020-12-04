@@ -13,6 +13,7 @@
 - [x] [Happy Number](https://leetcode.com/problems/happy-number/)
 - [x] [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
+- [x] [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
