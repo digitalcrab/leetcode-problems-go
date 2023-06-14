@@ -10,17 +10,10 @@ func NewStack() *Stack {
 
 // Push adds an element to the collection, and
 func (s *Stack) Push(v any) {
-	s.list.Top = &LinkedListNode{
-		Val:  v,
-		Next: s.list.Top,
-	}
+	s.list.InsertBeginning(v)
 }
 
 // Pop removes the most recently added element that was not yet removed.
 func (s *Stack) Pop() (v any) {
-	if s.list.Top == nil {
-		return nil
-	}
-	v, s.list.Top = s.list.Top.Val, s.list.Top.Next
-	return
+	return s.list.RemoveBeginning()
 }

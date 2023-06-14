@@ -23,6 +23,21 @@ func NewLinkedList(values ...any) *LinkedList {
 	return &LinkedList{Top: container.Next}
 }
 
+func (l *LinkedList) InsertBeginning(v any) {
+	l.Top = &LinkedListNode{
+		Val:  v,
+		Next: l.Top,
+	}
+}
+
+func (l *LinkedList) RemoveBeginning() (v any) {
+	if l.Top == nil {
+		return nil
+	}
+	v, l.Top = l.Top.Val, l.Top.Next
+	return
+}
+
 func (l *LinkedList) String() string {
 	return l.Top.String()
 }
