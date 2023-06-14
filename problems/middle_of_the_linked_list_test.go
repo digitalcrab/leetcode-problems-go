@@ -1,38 +1,53 @@
 package problems
 
 import (
-	"fmt"
 	"testing"
+
+	"github.com/digitalcrab/leetcode-problems-go/structures"
 )
 
-func TestMiddleNode(t *testing.T) {
+func TestMiddleOfTheLinkedList(t *testing.T) {
 	cases := []struct {
-		head     *ListNode
-		expected *ListNode
+		head     *structures.LinkedList
+		expected *structures.LinkedList
 	}{
 		{
-			head:     &ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4, Next: &ListNode{Val: 5}}}}},
-			expected: &ListNode{Val: 3, Next: &ListNode{Val: 4, Next: &ListNode{Val: 5}}},
+			head:     structures.NewLinkedList(1, 2, 3, 4, 5),
+			expected: structures.NewLinkedList(3, 4, 5),
 		},
 		{
-			head:     &ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4, Next: &ListNode{Val: 5, Next: &ListNode{Val: 6}}}}}},
-			expected: &ListNode{Val: 4, Next: &ListNode{Val: 5, Next: &ListNode{Val: 6}}},
+			head:     structures.NewLinkedList(1, 2, 3, 4, 5, 6),
+			expected: structures.NewLinkedList(4, 5, 6),
 		},
-	}
-
-	serialization := func(h *ListNode) string {
-		top := h
-		var res string
-		for top != nil {
-			res += fmt.Sprintf("~%d", top.Val)
-			top = top.Next
-		}
-		return res
 	}
 
 	for _, c := range cases {
-		middle := middleNode(c.head)
-		head, expected, res := serialization(c.head), serialization(c.expected), serialization(middle)
+		middle := MiddleOfTheLinkedList(c.head)
+		head, expected, res := c.head.String(), c.expected.String(), middle.String()
+		if expected != res {
+			t.Errorf("unexpected result %q of %q -> %q", res, head, expected)
+		}
+	}
+}
+
+func TestMiddleOfTheLinkedListSlowFast(t *testing.T) {
+	cases := []struct {
+		head     *structures.LinkedList
+		expected *structures.LinkedList
+	}{
+		{
+			head:     structures.NewLinkedList(1, 2, 3, 4, 5),
+			expected: structures.NewLinkedList(3, 4, 5),
+		},
+		{
+			head:     structures.NewLinkedList(1, 2, 3, 4, 5, 6),
+			expected: structures.NewLinkedList(4, 5, 6),
+		},
+	}
+
+	for _, c := range cases {
+		middle := MiddleOfTheLinkedListSlowFast(c.head)
+		head, expected, res := c.head.String(), c.expected.String(), middle.String()
 		if expected != res {
 			t.Errorf("unexpected result %q of %q -> %q", res, head, expected)
 		}

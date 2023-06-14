@@ -4,9 +4,9 @@ package algorithms
 // Space Complexity: O(n) - we have to copy an array
 //
 // Advantages
-//  - Worst case is the same as best case
-//  - Parallelizes well and can achieve close to linear speedup with a trivial implementation
-//  - Is stable
+//   - Worst case is the same as best case
+//   - Parallelizes well and can achieve close to linear speedup with a trivial implementation
+//   - Is stable
 func MergeSort(nums []int) {
 	mergeSort(nums, make([]int, len(nums)), 0, len(nums)-1)
 }
@@ -16,11 +16,11 @@ func mergeSort(nums, temp []int, left, right int) {
 		return
 	}
 
-	idx := left + (right-left)/2
+	middle := left + (right-left)/2
 
-	mergeSort(nums, temp, left, idx)
-	mergeSort(nums, temp, idx+1, right)
-	mergeHalves(nums, temp, left, right, idx)
+	mergeSort(nums, temp, left, middle)
+	mergeSort(nums, temp, middle+1, right)
+	mergeHalves(nums, temp, left, right, middle)
 }
 
 func mergeHalves(nums, temp []int, leftStart, rightEnd, middle int) {

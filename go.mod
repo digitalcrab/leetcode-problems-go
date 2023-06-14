@@ -1,3 +1,4 @@
 module github.com/digitalcrab/leetcode-problems-go
 
-go 1.15
+go 1.20
+
