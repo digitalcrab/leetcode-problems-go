@@ -97,35 +97,55 @@ func (n *BinaryTreeNode) contains(v Comparable) bool {
 	return n.right.contains(v)
 }
 
-// Inorder (Left, Root, Right)
-func (n *BinaryTreeNode) inOrder(buf *[]Comparable) {
+// DFSInOrder (Left, Root, Right) Depth-First-Search
+func (n *BinaryTreeNode) DFSInOrder(buf *[]Comparable) {
 	if n.left != nil {
-		n.left.inOrder(buf)
+		n.left.DFSInOrder(buf)
 	}
 	*buf = append(*buf, n.value)
 	if n.right != nil {
-		n.right.inOrder(buf)
+		n.right.DFSInOrder(buf)
 	}
 }
 
-// Preorder (Root, Left, Right)
-func (n *BinaryTreeNode) preOrder(buf *[]Comparable) {
+// DFSPreOrder (Root, Left, Right) Depth-First-Search
+func (n *BinaryTreeNode) DFSPreOrder(buf *[]Comparable) {
 	*buf = append(*buf, n.value)
 	if n.left != nil {
-		n.left.preOrder(buf)
+		n.left.DFSPreOrder(buf)
 	}
 	if n.right != nil {
-		n.right.preOrder(buf)
+		n.right.DFSPreOrder(buf)
 	}
 }
 
-// Postorder (Left, Right, Root)
-func (n *BinaryTreeNode) postOrder(buf *[]Comparable) {
+// DFSPostOrder (Left, Right, Root) Depth-First-Search
+func (n *BinaryTreeNode) DFSPostOrder(buf *[]Comparable) {
 	if n.left != nil {
-		n.left.postOrder(buf)
+		n.left.DFSPostOrder(buf)
 	}
 	if n.right != nil {
-		n.right.postOrder(buf)
+		n.right.DFSPostOrder(buf)
 	}
 	*buf = append(*buf, n.value)
+}
+
+// BFS (All siblings) Breadth-First-Search
+func (n *BinaryTreeNode) BFS(buf *[]Comparable) {
+	nextToVisit := []*BinaryTreeNode{n}
+
+	for len(nextToVisit) > 0 {
+		// take one from queue and dec queue
+		var current *BinaryTreeNode
+		current, nextToVisit = nextToVisit[0], nextToVisit[1:]
+
+		*buf = append(*buf, current.value)
+
+		if current.left != nil {
+			nextToVisit = append(nextToVisit, current.left)
+		}
+		if current.right != nil {
+			nextToVisit = append(nextToVisit, current.right)
+		}
+	}
 }
