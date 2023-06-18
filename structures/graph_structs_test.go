@@ -1,17 +1,17 @@
-package algorithms
+package structures
 
 import "testing"
 
-func printGraph(gr *graph, print func(format string, args ...interface{})) {
+func printGraph(gr *GraphStructs, print func(format string, args ...interface{})) {
 	for _, node := range gr.lookup {
 		print("node %d, adjacent:\n", node.id)
 		for _, child := range node.adjacent {
-			print("\t- %d\n", child.id)
+			print("\t- %d\n", child)
 		}
 	}
 }
 
-func initialGraph() *graph {
+func initialGraph() *GraphStructs {
 	gr := newGraph()
 	gr.addNodes(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
 	gr.addEdge(1, 2)
@@ -33,19 +33,23 @@ func initialGraph() *graph {
 func TestHasPathDFS(t *testing.T) {
 	gr := initialGraph()
 
-	if res := gr.hasPathDFS(1, 11); res != true {
+	printGraph(gr, t.Logf)
+
+	if res := gr.hasPathDFSRecursive(1, 11); res != true {
 		t.Errorf("unexpected result (1 -> 11): %t", res)
 	}
-	if res := gr.hasPathDFS(6, 11); res != false {
-		t.Errorf("unexpected result (6 -> 11): %t", res)
+	if res := gr.hasPathDFSStack(1, 11); res != true {
+		t.Errorf("unexpected result (1 -> 11): %t", res)
 	}
-}
-
-func TestHasPathBFS(t *testing.T) {
-	gr := initialGraph()
-
 	if res := gr.hasPathBFS(1, 11); res != true {
 		t.Errorf("unexpected result (1 -> 11): %t", res)
+	}
+
+	if res := gr.hasPathDFSRecursive(6, 11); res != false {
+		t.Errorf("unexpected result (6 -> 11): %t", res)
+	}
+	if res := gr.hasPathDFSStack(6, 11); res != false {
+		t.Errorf("unexpected result (6 -> 11): %t", res)
 	}
 	if res := gr.hasPathBFS(6, 11); res != false {
 		t.Errorf("unexpected result (6 -> 11): %t", res)
