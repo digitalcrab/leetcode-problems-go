@@ -2,6 +2,7 @@
 
 ### Problems
 
+- [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 - [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
