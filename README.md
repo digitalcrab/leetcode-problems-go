@@ -2,6 +2,7 @@
 
 ### Problems
 
+- [x] [27. Remove Element](https://leetcode.com/problems/remove-element/)
 - [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
