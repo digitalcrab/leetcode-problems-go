@@ -2,7 +2,7 @@ package problems
 
 import "testing"
 
-func TestMaxProfit1(t *testing.T) {
+func TestBestTimeToBuyAndSellStock121(t *testing.T) {
 	cases := []struct {
 		value    []int
 		expected int
@@ -21,7 +21,7 @@ func TestMaxProfit1(t *testing.T) {
 	}
 
 	for _, c := range cases {
-		res := maxProfit1(c.value)
+		res := BestTimeToBuyAndSellStock121(c.value)
 		if c.expected != res {
 			t.Errorf("unexpected result (%d) of %v -> %d", res, c.value, c.expected)
 		}
