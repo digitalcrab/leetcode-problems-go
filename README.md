@@ -7,6 +7,7 @@
 - [x] [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 - [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 - [x] [169. Majority Element](https://leetcode.com/problems/majority-element/)
+- [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 - [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
