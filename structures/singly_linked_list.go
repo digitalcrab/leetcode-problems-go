@@ -108,3 +108,35 @@ func (ll *SinglyLikedList[T]) Search(v T) bool {
 
 	return false
 }
+
+// Delete removes element from the list, time complexity is O(n) as we iterate over all elements
+func (ll *SinglyLikedList[T]) Delete(v T) {
+	// empty list case
+	if ll.Head == nil {
+		return
+	}
+
+	// create a fake head
+	fakeHead := &SinglyLikedListNode[T]{
+		Next: ll.Head,
+	}
+
+	// set prev to the fake head that is going to stay anyway
+	// and current to the head
+	prev, current := fakeHead, ll.Head
+
+	for current != nil {
+		if current.Value == v {
+			// jump over, but keep prev link
+			prev.Next = current.Next
+		} else {
+			// move prev link
+			prev = current
+		}
+		// move current in any case
+		current = current.Next
+	}
+
+	// restore head
+	ll.Head = fakeHead.Next
+}

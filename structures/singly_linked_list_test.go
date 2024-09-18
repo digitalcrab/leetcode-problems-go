@@ -66,3 +66,52 @@ func TestSinglyLikedList_Search(t *testing.T) {
 		t.Errorf("Element 2 should be found in the list")
 	}
 }
+
+func TestSinglyLikedList_Delete(t *testing.T) {
+	type testCase[T comparable] struct {
+		name  string
+		ll    *SinglyLikedList[T]
+		value T
+		want  string
+	}
+	tests := []testCase[int]{
+		{
+			name:  "empty list, remove random element",
+			ll:    NewSinglyLikedList[int](),
+			value: 42,
+			want:  "nil",
+		},
+		{
+			name:  "remove first element",
+			ll:    NewSinglyLikedList[int](1, 2, 3),
+			value: 1,
+			want:  "2 -> 3 -> nil",
+		},
+		{
+			name:  "remove last element",
+			ll:    NewSinglyLikedList[int](1, 2, 3),
+			value: 3,
+			want:  "1 -> 2 -> nil",
+		},
+		{
+			name:  "remove middle element",
+			ll:    NewSinglyLikedList[int](1, 2, 3),
+			value: 2,
+			want:  "1 -> 3 -> nil",
+		},
+		{
+			name:  "remove all matching element",
+			ll:    NewSinglyLikedList[int](2, 2, 1, 2, 2, 3, 2, 2),
+			value: 2,
+			want:  "1 -> 3 -> nil",
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			tt.ll.Delete(tt.value)
+			if got := tt.ll.Display(); got != tt.want {
+				t.Errorf("Display() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
