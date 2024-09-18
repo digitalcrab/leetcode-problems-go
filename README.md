@@ -4,7 +4,7 @@
 
 1. Linked Lists (insertion, deletion, search, reverse):
     - [x] Singly linked list
-    - [ ] Doubly linked list
+    - [x] Doubly linked list
 2. Stacks (push, pop, peek):
     - [ ] Using arrays/slices
     - [ ] Using linked lists
