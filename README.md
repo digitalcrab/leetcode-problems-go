@@ -3,7 +3,7 @@
 ### Data structures implemented in golang
 
 1. Linked Lists (insertion, deletion, search, reverse):
-    - [ ] Singly linked list
+    - [x] Singly linked list
     - [ ] Doubly linked list
 2. Stacks (push, pop, peek):
     - [ ] Using arrays/slices
