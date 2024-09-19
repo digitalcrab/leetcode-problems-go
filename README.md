@@ -6,7 +6,7 @@
     - [x] Singly linked list
     - [x] Doubly linked list
 2. Stacks (push, pop, peek):
-    - [ ] Using arrays/slices
+    - [x] Using arrays/slices
     - [ ] Using linked lists
 3. Queues:
     - [ ] Using arrays/slices
