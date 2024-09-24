@@ -9,7 +9,7 @@
     - [x] Using arrays/slices
     - [x] Using linked lists
 3. Queues:
-    - [ ] Using arrays/slices
+    - [x] Using arrays/slices
     - [ ] Using linked lists
 4. Hash Tables (insert, delete, search)
     - [ ] Basic implementation

@@ -51,8 +51,8 @@ func TestSinglyLikedList_InsertAtEnd(t *testing.T) {
 	ll.InsertAtEnd(4)
 	ll.InsertAtEnd(1)
 
-	if got := ll.Display(); got != "4 -> 3 -> 2 -> 1 -> nil" {
-		t.Errorf("Elements appear in unexpected order")
+	if got := ll.Display(); got != "4 -> 3 -> 4 -> 1 -> nil" {
+		t.Errorf("Elements appear in unexpected order, got: %v", got)
 	}
 }
 
