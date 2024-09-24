@@ -1,11 +1,20 @@
 package structures
 
-import (
-	"testing"
-)
+import "testing"
 
-func TestSlicesStack(t *testing.T) {
-	ss := make(SlicesStack, 0)
+func TestListStack_Push(t *testing.T) {
+	ss := NewListStack()
+	ss.Push(1)
+	ss.Push(2)
+	ss.Push(3)
+
+	if got := ss.Display(); got != "[3, 2, 1]" {
+		t.Errorf("Expected stack is different, got: %s", got)
+	}
+}
+
+func TestListStack_Pop_Peek(t *testing.T) {
+	ss := NewListStack()
 	ss.Push(1)
 	ss.Push(2)
 	ss.Push(3)

@@ -7,7 +7,7 @@
     - [x] Doubly linked list
 2. Stacks (push, pop, peek):
     - [x] Using arrays/slices
-    - [ ] Using linked lists
+    - [x] Using linked lists
 3. Queues:
     - [ ] Using arrays/slices
     - [ ] Using linked lists
