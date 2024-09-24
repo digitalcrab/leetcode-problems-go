@@ -10,7 +10,7 @@
     - [x] Using linked lists
 3. Queues:
     - [x] Using arrays/slices
-    - [ ] Using linked lists
+    - [x] Using linked lists
 4. Hash Tables (insert, delete, search)
     - [ ] Basic implementation
 5. Trees (insertion, deletion, traversal: inorder, preorder, postorder):
