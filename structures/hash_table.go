@@ -43,6 +43,9 @@ func (ht *HashTable) bucketIdx(key string) int {
 }
 
 // Set adds value to the hash map
+// Time Complexity:
+// O(1) average-case if there are few collisions (probably not with `simpleHashFunc` implementation)
+// O(n)worst-case scenario where `n` is number of all elements in the hash map that fall into the same bucket
 func (ht *HashTable) Set(key string, value any) {
 	idx := ht.bucketIdx(key)
 	// create a new hash map node
@@ -77,6 +80,7 @@ func (ht *HashTable) Set(key string, value any) {
 }
 
 // Get returns a value from a hash map by the key
+// Time Complexity: similar to Set
 func (ht *HashTable) Get(key string) (any, bool) {
 	idx := ht.bucketIdx(key)
 	// bucket if not empty
@@ -94,6 +98,7 @@ func (ht *HashTable) Get(key string) (any, bool) {
 }
 
 // Delete removes a value from the hash map by the key
+// Time Complexity: similar to Set
 func (ht *HashTable) Delete(key string) {
 	idx := ht.bucketIdx(key)
 	// bucket if empty
