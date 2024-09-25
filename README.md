@@ -12,7 +12,7 @@
     - [x] Using arrays/slices
     - [x] Using linked lists
 4. Hash Tables (insert, delete, search)
-    - [ ] Basic implementation
+    - [x] Basic implementation
 5. Trees (insertion, deletion, traversal: inorder, preorder, postorder):
     - [ ] Binary tree
     - [ ] Binary Search Tree (BST)
