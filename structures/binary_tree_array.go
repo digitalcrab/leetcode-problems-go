@@ -19,7 +19,7 @@ package structures
 //	3   4 5   6
 type BinaryTreeArray []any
 
-// Insert adds element into the tree while filling the space from the most left side first.
+// Insert performs level-order insertion, filling the tree from left to right at each level
 // Time Complexity:
 // O(1) on average as array is not constantly growing
 // O(n) worst case if array need to grow then we copy all elements to the new one
@@ -32,53 +32,56 @@ func (bta *BinaryTreeArray) Insert(v any) {
 // Time Complexity:
 // O(n) white we visit every node in the tree
 func (bta *BinaryTreeArray) TraversePreorder(cb func(v any)) {
-	for _, value := range *bta {
-		cb(value)
+	bta.traversePreorder(cb, 0)
+}
+
+func (bta *BinaryTreeArray) traversePreorder(cb func(v any), idx int) {
+	// make sure we protect ourselves from hitting the outside boundary
+	if idx >= len(*bta) {
+		return
 	}
+
+	// visit the nodes in a correct order:
+	cb((*bta)[idx])                   // Root
+	bta.traversePreorder(cb, 2*idx+1) // Left
+	bta.traversePreorder(cb, 2*idx+2) // Right
 }
 
 // TraverseInorder visits every node in inorder Left, Root, Right and calls `cb` function.
 // Time Complexity:
 // O(n) white we visit every node in the tree, additional index calculations do not affect.
 func (bta *BinaryTreeArray) TraverseInorder(cb func(v any)) {
-	var traverse func(cb func(v any), idx int)
+	bta.traverseInorder(cb, 0)
+}
 
-	// define a function to use in a recursive all
-	traverse = func(cb func(v any), idx int) {
-		// make sure we protect ourselves from hitting the outside boundary
-		if idx >= len(*bta) {
-			return
-		}
-
-		// visit the nodes in a correct order:
-
-		traverse(cb, 2*idx+1) // Left
-		cb((*bta)[idx])       // Root
-		traverse(cb, 2*idx+2) // Right
+func (bta *BinaryTreeArray) traverseInorder(cb func(v any), idx int) {
+	// make sure we protect ourselves from hitting the outside boundary
+	if idx >= len(*bta) {
+		return
 	}
 
-	traverse(cb, 0)
+	// visit the nodes in a correct order:
+	bta.traverseInorder(cb, 2*idx+1) // Left
+	cb((*bta)[idx])                  // Root
+	bta.traverseInorder(cb, 2*idx+2) // Right
 }
 
 // TraversePostorder visits every node in inorder Left, Right, Root and calls `cb` function.
 // Time Complexity:
 // O(n) white we visit every node in the tree, additional index calculations do not affect.
 func (bta *BinaryTreeArray) TraversePostorder(cb func(v any)) {
-	var traverse func(cb func(v any), idx int)
+	bta.traversePostorder(cb, 0)
+}
 
-	// define a function to use in a recursive all
-	traverse = func(cb func(v any), idx int) {
-		// make sure we protect ourselves from hitting the outside boundary
-		if idx >= len(*bta) {
-			return
-		}
-
-		// visit the nodes in a correct order:
-
-		traverse(cb, 2*idx+1) // Left
-		traverse(cb, 2*idx+2) // Right
-		cb((*bta)[idx])       // Root
+func (bta *BinaryTreeArray) traversePostorder(cb func(v any), idx int) {
+	// make sure we protect ourselves from hitting the outside boundary
+	if idx >= len(*bta) {
+		return
 	}
 
-	traverse(cb, 0)
+	// visit the nodes in a correct order:
+
+	bta.traversePostorder(cb, 2*idx+1) // Left
+	bta.traversePostorder(cb, 2*idx+2) // Right
+	cb((*bta)[idx])                    // Root
 }

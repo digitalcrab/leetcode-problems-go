@@ -5,14 +5,14 @@ import (
 	"testing"
 )
 
-func TestBinaryTreeArray_TraversePreorder(t *testing.T) {
+func TestBinaryTree_TraversePreorder(t *testing.T) {
 	// Example:
 	//	     1
 	//	    / \
 	//	  2     3
 	//	 / \   / \
 	//	4   5 6   7
-	bt := BinaryTreeArray{1, 2, 3, 4, 5, 6, 7}
+	bt := NewBinaryTree(1, 2, 3, 4, 5, 6, 7)
 	var result []int
 
 	bt.TraversePreorder(func(v any) { // Root, Left, Right
@@ -24,14 +24,14 @@ func TestBinaryTreeArray_TraversePreorder(t *testing.T) {
 	}
 }
 
-func TestBinaryTreeArray_TraverseInorder(t *testing.T) {
+func TestBinaryTree_TraverseInorder(t *testing.T) {
 	// Example:
 	//	     5
 	//	    / \
 	//	  3     7
 	//	 / \   / \
 	//	2   4 6   8
-	bt := BinaryTreeArray{5, 3, 7, 2, 4, 6, 8}
+	bt := NewBinaryTree(5, 3, 7, 2, 4, 6, 8)
 	var result []int
 
 	bt.TraverseInorder(func(v any) { // Left, Root, Right
@@ -43,14 +43,14 @@ func TestBinaryTreeArray_TraverseInorder(t *testing.T) {
 	}
 }
 
-func TestBinaryTreeArray_TraversePostorder(t *testing.T) {
+func TestBinaryTree_TraversePostorder(t *testing.T) {
 	// Example:
 	//	     1
 	//	    / \
 	//	  2     3
 	//	 / \   / \
 	//	4   5 6   7
-	bt := BinaryTreeArray{1, 2, 3, 4, 5, 6, 7}
+	bt := NewBinaryTree(1, 2, 3, 4, 5, 6, 7)
 	var result []int
 
 	bt.TraversePostorder(func(v any) { // Left, Right, Root
