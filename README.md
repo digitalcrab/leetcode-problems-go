@@ -14,8 +14,8 @@
 4. Hash Tables (insert, delete, search)
     - [x] Basic implementation
 5. Trees (insertion, deletion, traversal: inorder, preorder, postorder):
-    - [ ] Binary tree
-    - [ ] Binary Search Tree (BST)
+    - [x] Binary tree
+    - [x] Binary Search Tree (BST)
     - [ ] AVL tree (self-balancing)
 6. Heaps (insert, delete, extract-min/max):
     - [ ] Min-Heap
