@@ -16,7 +16,7 @@
 5. Trees (insertion, deletion, traversal: inorder, preorder, postorder):
     - [x] Binary tree
     - [x] Binary Search Tree (BST)
-    - [ ] AVL tree (self-balancing)
+    - [x] AVL tree (self-balancing)
 6. Heaps (insert, delete, extract-min/max):
     - [ ] Min-Heap
     - [ ] Max-Heap
