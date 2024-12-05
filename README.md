@@ -54,6 +54,7 @@
 ### LeetCode Problems and solutions
 
 - [x] Contains Duplicate
+- [x] Group Anagrams
 - [x] Two Sum
 - [x] Valid Anagram
 
