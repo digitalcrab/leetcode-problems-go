@@ -53,6 +53,7 @@
 
 ### LeetCode Problems and solutions
 
+- [x] Contains Duplicate
 - [x] Two Sum
 - [x] Valid Anagram
 
