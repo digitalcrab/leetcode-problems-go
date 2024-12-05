@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Time Complexity: O(n) + O(m) where n and m are number of characters in both strings, and we loop over all of them
+// Time Complexity: O(2n) ~ O(n) where m is number of characters in both strings, and we loop over all of them
 // Space Complexity: O(26) = O(1), as we use only space required for the extra map with chars and counts
 func isAnagram(s string, t string) bool {
 	// if they are different in length then for sure not anagram
@@ -36,6 +36,36 @@ func isAnagram(s string, t string) bool {
 	return len(charCounts) == 0
 }
 
+// Time Complexity: O(n) loop once
+// Space Complexity: O(1), as we use only space required for the extra array with chars and counts
+func isAnagramFaster(s string, t string) bool {
+	if len(s) != len(t) {
+		return false
+	}
+
+	// here we gonna store how many times we've seen a letter
+	// 26 is number of lowercase English letters, more we do nto need
+	var counter [26]int
+
+	for i := range s {
+		// calculate index of character in the counter array
+		chrS := s[i] - 'a'
+		chrT := t[i] - 'a'
+		// increase for S and decrease for T
+		counter[chrS]++
+		counter[chrT]--
+	}
+
+	// loop over the small array of chars and see if it's all used
+	for _, cnt := range counter {
+		if cnt != 0 {
+			return false
+		}
+	}
+
+	return true
+}
+
 func main() {
-	fmt.Printf("anagram and nagaram = %t", isAnagram("anagram", "nagaram"))
+	fmt.Printf("anagram and nagaram = %t", isAnagramFaster("anagram", "nagaram"))
 }

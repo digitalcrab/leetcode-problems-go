@@ -23,5 +23,8 @@ func Test_isAnagram(t *testing.T) {
 		if got := isAnagram(tt.s, tt.t); got != tt.want {
 			t.Errorf("isAnagram(%q, %q) = %v, want %v", tt.s, tt.t, got, tt.want)
 		}
+		if got := isAnagramFaster(tt.s, tt.t); got != tt.want {
+			t.Errorf("isAnagramFaster(%q, %q) = %v, want %v", tt.s, tt.t, got, tt.want)
+		}
 	}
 }
