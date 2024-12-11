@@ -53,8 +53,9 @@
 
 ### LeetCode Problems and solutions
 
-- [x] Contains Duplicate
-- [x] Group Anagrams
-- [x] Two Sum
-- [x] Valid Anagram
-
+| Number | Title              | Difficulty | Check |
+|-------:|:-------------------|:----------:|:-----:|
+|      1 | Two Sum            |    Easy    |  [x]  |
+|     49 | Group Anagrams     |   Medium   |  [x]  |
+|    217 | Contains Duplicate |    Easy    |  [x]  |
+|    242 | Valid Anagram      |    Easy    |  [x]  |
