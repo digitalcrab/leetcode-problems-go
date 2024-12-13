@@ -26,6 +26,7 @@ type BinaryTreeArray []any
 func (bta *BinaryTreeArray) Insert(v any) {
 	// as we maintain preorder (Root, Left, Right) we can simply keep adding values to the end.
 	*bta = append(*bta, v)
+	// todo: 12.12.2024 I was a bit wrong here, as i think we need to keep elements in order, so not correct here
 }
 
 // TraversePreorder visits every node in preorder Root, Left, Right and calls `cb` function.

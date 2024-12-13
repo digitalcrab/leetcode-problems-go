@@ -4,22 +4,13 @@ import (
 	"testing"
 )
 
-func bstLessInt(a, b any) bool {
-	av := a.(int)
-	bv := b.(int)
-	return av < bv
-}
-
 func TestBinarySearchTree_Search(t *testing.T) {
-	eq := !bstLessInt(5, 5) && !bstLessInt(5, 5)
-	if eq != true {
-		t.Errorf("Less function works incorrect")
-	}
-
 	treeValues := []int{8, 3, 10, 1, 6, 14, 4, 7, 13}
 
 	bst := &BinarySearchTree{
-		Less: bstLessInt,
+		Less: func(a, b any) bool {
+			return a.(int) < b.(int)
+		},
 	}
 
 	// prepare the tree
@@ -42,14 +33,20 @@ func TestBinarySearchTree_Search(t *testing.T) {
 }
 
 func TestBinarySearchTree_Min(t *testing.T) {
-	bst := NewBinarySearchTree(bstLessInt, 8, 3, 10, 1, 6, 14, 4, 7, 13)
+	less := func(a, b any) bool {
+		return a.(int) < b.(int)
+	}
+	bst := NewBinarySearchTree(less, 8, 3, 10, 1, 6, 14, 4, 7, 13)
 	if got := bst.Min(); got != 1 {
 		t.Errorf("unexpected min value: %v", got)
 	}
 }
 
 func TestBinarySearchTree_Max(t *testing.T) {
-	bst := NewBinarySearchTree(bstLessInt, 8, 3, 10, 1, 6, 14, 4, 7, 13)
+	less := func(a, b any) bool {
+		return a.(int) < b.(int)
+	}
+	bst := NewBinarySearchTree(less, 8, 3, 10, 1, 6, 14, 4, 7, 13)
 	if got := bst.Max(); got != 14 {
 		t.Errorf("unexpected max value: %v", got)
 	}
