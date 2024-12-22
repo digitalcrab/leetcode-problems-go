@@ -18,8 +18,8 @@
     - [x] Binary Search Tree (BST)
     - [x] AVL tree (self-balancing)
 6. Heaps (insert, delete, extract-min/max):
-    - [ ] Min-Heap
-    - [ ] Max-Heap
+    - [x] Min-Heap
+    - [x] Max-Heap
 7. Graphs (add edge, remove edge, search: DFS, BFS):
     - [ ] Adjacency matrix
     - [ ] Adjacency list
@@ -53,9 +53,10 @@
 
 ### LeetCode Problems and solutions
 
-| Number | Title              | Difficulty | Check |
-|-------:|:-------------------|:----------:|:-----:|
-|      1 | Two Sum            |    Easy    |  [x]  |
-|     49 | Group Anagrams     |   Medium   |  [x]  |
-|    217 | Contains Duplicate |    Easy    |  [x]  |
-|    242 | Valid Anagram      |    Easy    |  [x]  |
+| Number | Title                   | Difficulty | Solution                                                              |
+|-------:|:------------------------|:----------:|:----------------------------------------------------------------------|
+|      1 | Two Sum                 |    Easy    | [two-sum](leetcode-solutions/two-sum)                                 |
+|     49 | Group Anagrams          |   Medium   | [group-anagrams](leetcode-solutions/group-anagrams)                   |
+|    217 | Contains Duplicate      |    Easy    | [contains-duplicate](leetcode-solutions/contains-duplicate)           |
+|    242 | Valid Anagram           |    Easy    | [valid-anagram](leetcode-solutions/valid-anagram)                     |
+|    347 | Top K Frequent Elements |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements) |
