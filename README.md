@@ -53,11 +53,12 @@
 
 ### LeetCode Problems and solutions
 
-| Number | Title                     | Difficulty | Solution                                                                  |
-|-------:|:--------------------------|:----------:|:--------------------------------------------------------------------------|
-|      1 | Two Sum                   |    Easy    | [two-sum](leetcode-solutions/two-sum)                                     |
-|     49 | Group Anagrams            |   Medium   | [group-anagrams](leetcode-solutions/group-anagrams)                       |
-|    217 | Contains Duplicate        |    Easy    | [contains-duplicate](leetcode-solutions/contains-duplicate)               |
-|    242 | Valid Anagram             |    Easy    | [valid-anagram](leetcode-solutions/valid-anagram)                         |
-|    271 | Encode and Decode Strings |   Medium   | [encode-and-decode-strings](leetcode-solutions/encode-and-decode-strings) |
-|    347 | Top K Frequent Elements   |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements)     |
+| Number | Title                        | Difficulty | Solution                                                                        |
+|-------:|:-----------------------------|:----------:|:--------------------------------------------------------------------------------|
+|      1 | Two Sum                      |    Easy    | [two-sum](leetcode-solutions/two-sum)                                           |
+|     49 | Group Anagrams               |   Medium   | [group-anagrams](leetcode-solutions/group-anagrams)                             |
+|    217 | Contains Duplicate           |    Easy    | [contains-duplicate](leetcode-solutions/contains-duplicate)                     |
+|    238 | Product of Array Except Self |   Medium   | [product-of-array-except-self](leetcode-solutions/product-of-array-except-self) |
+|    242 | Valid Anagram                |    Easy    | [valid-anagram](leetcode-solutions/valid-anagram)                               |
+|    271 | Encode and Decode Strings    |   Medium   | [encode-and-decode-strings](leetcode-solutions/encode-and-decode-strings)       |
+|    347 | Top K Frequent Elements      |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements)           |
