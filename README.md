@@ -58,6 +58,7 @@
 |      1 | Two Sum                      |    Easy    | [two-sum](leetcode-solutions/two-sum)                                           |
 |     36 | Valid Sudoku                 |   Medium   | [valid-sudoku](leetcode-solutions/valid-sudoku)                                 |
 |     49 | Group Anagrams               |   Medium   | [group-anagrams](leetcode-solutions/group-anagrams)                             |
+|     88 | Merge Sorted Array           |    Easy    | [merge-sorted-array](leetcode-solutions/merge-sorted-array)                     |
 |    128 | Longest Consecutive Sequence |   Medium   | [longest-consecutive-sequence](leetcode-solutions/longest-consecutive-sequence) |
 |    217 | Contains Duplicate           |    Easy    | [contains-duplicate](leetcode-solutions/contains-duplicate)                     |
 |    238 | Product of Array Except Self |   Medium   | [product-of-array-except-self](leetcode-solutions/product-of-array-except-self) |
