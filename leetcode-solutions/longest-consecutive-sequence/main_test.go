@@ -27,6 +27,9 @@ func Test_longestConsecutive(t *testing.T) {
 			if got := longestConsecutive(tt.args.nums); got != tt.want {
 				t.Errorf("longestConsecutive() = %v, want %v", got, tt.want)
 			}
+			if got := longestConsecutiveHash(tt.args.nums); got != tt.want {
+				t.Errorf("longestConsecutiveHash() = %v, want %v", got, tt.want)
+			}
 			if got := longestConsecutiveForest(tt.args.nums); got != tt.want {
 				t.Errorf("longestConsecutiveForest() = %v, want %v", got, tt.want)
 			}
@@ -35,14 +38,21 @@ func Test_longestConsecutive(t *testing.T) {
 }
 
 func Benchmark_longestConsecutive(b *testing.B) {
-	nums := []int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1}
+	var nums = []int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1}
 	for i := 0; i < b.N; i++ {
 		longestConsecutive(nums)
 	}
 }
 
+func Benchmark_longestConsecutiveHash(b *testing.B) {
+	var nums = []int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1}
+	for i := 0; i < b.N; i++ {
+		longestConsecutiveHash(nums)
+	}
+}
+
 func Benchmark_longestConsecutiveForest(b *testing.B) {
-	nums := []int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1}
+	var nums = []int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1}
 	for i := 0; i < b.N; i++ {
 		longestConsecutiveForest(nums)
 	}

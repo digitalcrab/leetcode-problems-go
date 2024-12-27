@@ -3,6 +3,38 @@ package main
 import "fmt"
 
 func longestConsecutive(nums []int) int {
+	// store number to length
+	numToLen := make(map[int]int)
+	longest := 0
+
+	for _, num := range nums { // Time: O(n) as we go through each element
+		// that's we have calculate already so we skip
+		if numToLen[num] != 0 {
+			continue
+		}
+
+		// find known left and right lengths
+		left := numToLen[num-1]
+		right := numToLen[num+1]
+
+		// calc total length
+		sum := left + right + 1
+
+		// update total for cur rent number
+		numToLen[num] = sum
+
+		// update to the left most and right most items
+		numToLen[num-left] = sum
+		numToLen[num+right] = sum
+
+		// update longest
+		longest = max(longest, sum)
+	}
+
+	return longest
+}
+
+func longestConsecutiveHash(nums []int) int {
 	var longest int
 
 	// convert that into the map, also removes duplicates
@@ -63,11 +95,11 @@ type unionFind struct {
 
 func newForest(nums []int) (*unionFind, map[int]bool) {
 	// start with allocating some space
-	sets := make(map[int]bool, len(nums))
+	sets := make(map[int]bool)
 
 	uf := &unionFind{
-		parent:  make(map[int]int, len(nums)),
-		size:    make(map[int]int, len(nums)),
+		parent:  make(map[int]int),
+		size:    make(map[int]int),
 		maxSize: 1,
 	}
 
@@ -112,7 +144,7 @@ func (uf *unionFind) union(x, y int) {
 
 func main() {
 	nums := []int{100, 4, 200, 1, 3, 2}
-	length := longestConsecutive(nums)
+	length := longestConsecutiveHash(nums)
 	fmt.Printf("Longest consecutive sequence: %d\n", length)
 	lengthWithUnion := longestConsecutiveForest(nums)
 	fmt.Printf("Longest consecutive sequence: %d\n", lengthWithUnion)
