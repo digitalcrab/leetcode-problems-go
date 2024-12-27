@@ -30,3 +30,12 @@ Output: 9
 0 <= nums.length <= 10**5
 -10**9 <= nums[i] <= 10**9
 ```
+
+## Benchmark results
+
+```text
+cpu: Apple M2 Pro
+Benchmark_longestConsecutive-10                  2714517               420.6 ns/op
+Benchmark_longestConsecutiveHash-10              2243179               539.5 ns/op
+Benchmark_longestConsecutiveForest-10             345327              3393 ns/op
+```
