@@ -56,6 +56,7 @@
 | Number | Title                        | Difficulty | Solution                                                                        |
 |-------:|:-----------------------------|:----------:|:--------------------------------------------------------------------------------|
 |      1 | Two Sum                      |    Easy    | [two-sum](leetcode-solutions/two-sum)                                           |
+|     20 | Valid Parentheses            |    Easy    | [valid-parentheses](leetcode-solutions/valid-parentheses)                       |
 |     36 | Valid Sudoku                 |   Medium   | [valid-sudoku](leetcode-solutions/valid-sudoku)                                 |
 |     49 | Group Anagrams               |   Medium   | [group-anagrams](leetcode-solutions/group-anagrams)                             |
 |     58 | Length of Last Word          |    Easy    | [length-of-last-word](leetcode-solutions/length-of-last-word)                   |
