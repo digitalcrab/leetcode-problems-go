@@ -56,6 +56,7 @@
 | Number | Title                                  | Difficulty | Solution                                                                                            |
 |-------:|:---------------------------------------|:----------:|:----------------------------------------------------------------------------------------------------|
 |      1 | Two Sum                                |    Easy    | [two-sum](leetcode-solutions/two-sum)                                                               |
+|     13 | Roman to Integer                       |    Easy    | [roman-to-integer](leetcode-solutions/roman-to-integer)                                             |
 |     20 | Valid Parentheses                      |    Easy    | [valid-parentheses](leetcode-solutions/valid-parentheses)                                           |
 |     26 | Remove Duplicates from Sorted Array    |    Easy    | [remove-duplicates-from-sorted-array](leetcode-solutions/remove-duplicates-from-sorted-array)       |
 |     27 | Remove Element                         |    Easy    | [remove-element](leetcode-solutions/remove-element)                                                 |
