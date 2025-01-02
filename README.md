@@ -60,6 +60,7 @@
 |     13 | Roman to Integer                                   |    Easy    | [roman-to-integer](leetcode-solutions/roman-to-integer)                                                                     |
 |     14 | Longest Common Prefix                              |    Easy    | [longest-common-prefix](leetcode-solutions/longest-common-prefix)                                                           |
 |     20 | Valid Parentheses                                  |    Easy    | [valid-parentheses](leetcode-solutions/valid-parentheses)                                                                   |
+|     22 | Generate Parentheses                               |   Medium   | [generate-parentheses](leetcode-solutions/generate-parentheses)                                                             |
 |     26 | Remove Duplicates from Sorted Array                |    Easy    | [remove-duplicates-from-sorted-array](leetcode-solutions/remove-duplicates-from-sorted-array)                               |
 |     27 | Remove Element                                     |    Easy    | [remove-element](leetcode-solutions/remove-element)                                                                         |
 |     28 | Find the Index of the First Occurrence in a String |    Easy    | [find-the-index-of-the-first-occurrence-in-a-string](leetcode-solutions/find-the-index-of-the-first-occurrence-in-a-string) |
