@@ -70,9 +70,10 @@
 |     80 | Remove Duplicates from Sorted Array II             |   Medium   | [remove-duplicates-from-sorted-array-ii](leetcode-solutions/remove-duplicates-from-sorted-array-ii)                         |
 |     88 | Merge Sorted Array                                 |    Easy    | [merge-sorted-array](leetcode-solutions/merge-sorted-array)                                                                 |
 |    121 | Best Time to Buy and Sell Stock                    |    Easy    | [best-time-to-buy-and-sell-stock](leetcode-solutions/best-time-to-buy-and-sell-stock)                                       |
-|    122 | [Best Time to Buy and Sell Stock II]()             |   Medium   | [best-time-to-buy-and-sell-stock-ii](leetcode-solutions/best-time-to-buy-and-sell-stock-ii)                                 |
+|    122 | Best Time to Buy and Sell Stock II                 |   Medium   | [best-time-to-buy-and-sell-stock-ii](leetcode-solutions/best-time-to-buy-and-sell-stock-ii)                                 |
 |    125 | Valid Palindrome                                   |    Easy    | [valid-palindrome](leetcode-solutions/valid-palindrome)                                                                     |
 |    128 | Longest Consecutive Sequence                       |   Medium   | [longest-consecutive-sequence](leetcode-solutions/longest-consecutive-sequence)                                             |
+|    150 | Evaluate Reverse Polish Notation                   |   Medium   | [evaluate-reverse-polish-notation](leetcode-solutions/evaluate-reverse-polish-notation)                                     |
 |    155 | Min Stack                                          |   Medium   | [min-stack](leetcode-solutions/min-stack)                                                                                   |
 |    169 | Majority Element                                   |    Easy    | [majority-element](leetcode-solutions/majority-element)                                                                     |
 |    189 | Rotate Array                                       |   Medium   | [rotate-array](leetcode-solutions/rotate-array)                                                                             |
