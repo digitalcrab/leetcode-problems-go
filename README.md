@@ -82,3 +82,4 @@
 |    242 | Valid Anagram                                      |    Easy    | [valid-anagram](leetcode-solutions/valid-anagram)                                                                           |
 |    271 | Encode and Decode Strings                          |   Medium   | [encode-and-decode-strings](leetcode-solutions/encode-and-decode-strings)                                                   |
 |    347 | Top K Frequent Elements                            |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements)                                                       |
+|    739 | Daily Temperatures                                 |   Medium   | [daily-temperatures](leetcode-solutions/daily-temperatures)                                                                 |
