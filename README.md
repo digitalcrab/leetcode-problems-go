@@ -82,6 +82,7 @@
 |    242 | Valid Anagram                                      |    Easy    | [valid-anagram](leetcode-solutions/valid-anagram)                                                                           |
 |    271 | Encode and Decode Strings                          |   Medium   | [encode-and-decode-strings](leetcode-solutions/encode-and-decode-strings)                                                   |
 |    347 | Top K Frequent Elements                            |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements)                                                       |
+|    412 | Fizz Buzz                                          |    Easy    | [fizz-buzz](leetcode-solutions/fizz-buzz)                                                                                   |
 |    739 | Daily Temperatures                                 |   Medium   | [daily-temperatures](leetcode-solutions/daily-temperatures)                                                                 |
 |   1480 | Running Sum of 1d Array                            |    Easy    | [running-sum-of-1d-array](leetcode-solutions/running-sum-of-1d-array)                                                       |
 |   1672 | Richest Customer Wealth                            |    Easy    | [richest-customer-wealth](leetcode-solutions/richest-customer-wealth)                                                       |
