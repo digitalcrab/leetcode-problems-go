@@ -84,3 +84,4 @@
 |    347 | Top K Frequent Elements                            |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements)                                                       |
 |    739 | Daily Temperatures                                 |   Medium   | [daily-temperatures](leetcode-solutions/daily-temperatures)                                                                 |
 |   1480 | Running Sum of 1d Array                            |    Easy    | [running-sum-of-1d-array](leetcode-solutions/running-sum-of-1d-array)                                                       |
+|   1672 | Richest Customer Wealth                            |    Easy    | [richest-customer-wealth](leetcode-solutions/richest-customer-wealth)                                                       |
