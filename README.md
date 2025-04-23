@@ -82,6 +82,7 @@
 |    242 | Valid Anagram                                      |    Easy    | [valid-anagram](leetcode-solutions/valid-anagram)                                                                           |
 |    271 | Encode and Decode Strings                          |   Medium   | [encode-and-decode-strings](leetcode-solutions/encode-and-decode-strings)                                                   |
 |    347 | Top K Frequent Elements                            |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements)                                                       |
+|    383 | Ransom Note                                        |    Easy    | [ransom-note](leetcode-solutions/ransom-note)                                                                               |
 |    412 | Fizz Buzz                                          |    Easy    | [fizz-buzz](leetcode-solutions/fizz-buzz)                                                                                   |
 |    739 | Daily Temperatures                                 |   Medium   | [daily-temperatures](leetcode-solutions/daily-temperatures)                                                                 |
 |    876 | Middle of the Linked List                          |    Easy    | [middle-of-the-linked-list](leetcode-solutions/middle-of-the-linked-list)                                                   |
