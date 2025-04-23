@@ -73,6 +73,7 @@
 |    122 | Best Time to Buy and Sell Stock II                 |   Medium   | [best-time-to-buy-and-sell-stock-ii](leetcode-solutions/best-time-to-buy-and-sell-stock-ii)                                 |
 |    125 | Valid Palindrome                                   |    Easy    | [valid-palindrome](leetcode-solutions/valid-palindrome)                                                                     |
 |    128 | Longest Consecutive Sequence                       |   Medium   | [longest-consecutive-sequence](leetcode-solutions/longest-consecutive-sequence)                                             |
+|    136 | Single Number                                      |    Easy    | [single-number](leetcode-solutions/single-number)                                                                           |
 |    150 | Evaluate Reverse Polish Notation                   |   Medium   | [evaluate-reverse-polish-notation](leetcode-solutions/evaluate-reverse-polish-notation)                                     |
 |    155 | Min Stack                                          |   Medium   | [min-stack](leetcode-solutions/min-stack)                                                                                   |
 |    169 | Majority Element                                   |    Easy    | [majority-element](leetcode-solutions/majority-element)                                                                     |
