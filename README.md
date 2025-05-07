@@ -87,6 +87,7 @@
 |    271 | Encode and Decode Strings                          |   Medium   | [encode-and-decode-strings](leetcode-solutions/encode-and-decode-strings)                                                   |
 |    347 | Top K Frequent Elements                            |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements)                                                       |
 |    350 | Intersection of Two Arrays II                      |    Easy    | [intersection-of-two-arrays-ii](leetcode-solutions/intersection-of-two-arrays-ii)                                           |
+|    359 | Logger Rate Limiter                                |    Easy    | [logger-rate-limiter](leetcode-solutions/logger-rate-limiter)                                                               |
 |    383 | Ransom Note                                        |    Easy    | [ransom-note](leetcode-solutions/ransom-note)                                                                               |
 |    387 | First Unique Character in a String                 |    Easy    | [first-unique-character-in-a-string](leetcode-solutions/first-unique-character-in-a-string)                                 |
 |    412 | Fizz Buzz                                          |    Easy    | [fizz-buzz](leetcode-solutions/fizz-buzz)                                                                                   |
