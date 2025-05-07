@@ -79,6 +79,7 @@
 |    169 | Majority Element                                   |    Easy    | [majority-element](leetcode-solutions/majority-element)                                                                     |
 |    189 | Rotate Array                                       |   Medium   | [rotate-array](leetcode-solutions/rotate-array)                                                                             |
 |    202 | Happy Number                                       |    Easy    | [happy-number](leetcode-solutions/happy-number)                                                                             |
+|    205 | Isomorphic Strings                                 |    Easy    | [isomorphic-strings](leetcode-solutions/isomorphic-strings)                                                                 |
 |    217 | Contains Duplicate                                 |    Easy    | [contains-duplicate](leetcode-solutions/contains-duplicate)                                                                 |
 |    238 | Product of Array Except Self                       |   Medium   | [product-of-array-except-self](leetcode-solutions/product-of-array-except-self)                                             |
 |    242 | Valid Anagram                                      |    Easy    | [valid-anagram](leetcode-solutions/valid-anagram)                                                                           |
