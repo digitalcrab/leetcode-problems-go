@@ -87,6 +87,7 @@
 |    347 | Top K Frequent Elements                            |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements)                                                       |
 |    383 | Ransom Note                                        |    Easy    | [ransom-note](leetcode-solutions/ransom-note)                                                                               |
 |    412 | Fizz Buzz                                          |    Easy    | [fizz-buzz](leetcode-solutions/fizz-buzz)                                                                                   |
+|    599 | Minimum Index Sum of Two Lists                     |    Easy    | [minimum-index-sum-of-two-lists](leetcode-solutions/minimum-index-sum-of-two-lists)                                         |
 |    739 | Daily Temperatures                                 |   Medium   | [daily-temperatures](leetcode-solutions/daily-temperatures)                                                                 |
 |    876 | Middle of the Linked List                          |    Easy    | [middle-of-the-linked-list](leetcode-solutions/middle-of-the-linked-list)                                                   |
 |   1342 | Number of Steps to Reduce a Number to Zero         |    Easy    | [richest-customer-wealth](leetcode-solutions/richest-customer-wealth)                                                       |
