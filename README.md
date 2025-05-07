@@ -84,6 +84,7 @@
 |    219 | Contains Duplicate II                              |    Easy    | [contains-duplicate-ii](leetcode-solutions/contains-duplicate-ii)                                                           |
 |    238 | Product of Array Except Self                       |   Medium   | [product-of-array-except-self](leetcode-solutions/product-of-array-except-self)                                             |
 |    242 | Valid Anagram                                      |    Easy    | [valid-anagram](leetcode-solutions/valid-anagram)                                                                           |
+|    249 | Group Shifted Strings                              |   Medium   | [group-shifted-strings](leetcode-solutions/group-shifted-strings)                                                           |
 |    271 | Encode and Decode Strings                          |   Medium   | [encode-and-decode-strings](leetcode-solutions/encode-and-decode-strings)                                                   |
 |    347 | Top K Frequent Elements                            |   Medium   | [top-k-frequent-elements](leetcode-solutions/top-k-frequent-elements)                                                       |
 |    350 | Intersection of Two Arrays II                      |    Easy    | [intersection-of-two-arrays-ii](leetcode-solutions/intersection-of-two-arrays-ii)                                           |
