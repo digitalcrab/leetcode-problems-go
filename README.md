@@ -81,6 +81,7 @@
 |    202 | Happy Number                                       |    Easy    | [happy-number](leetcode-solutions/happy-number)                                                                             |
 |    205 | Isomorphic Strings                                 |    Easy    | [isomorphic-strings](leetcode-solutions/isomorphic-strings)                                                                 |
 |    217 | Contains Duplicate                                 |    Easy    | [contains-duplicate](leetcode-solutions/contains-duplicate)                                                                 |
+|    219 | Contains Duplicate II                              |    Easy    | [contains-duplicate-ii](leetcode-solutions/contains-duplicate-ii)                                                           |
 |    238 | Product of Array Except Self                       |   Medium   | [product-of-array-except-self](leetcode-solutions/product-of-array-except-self)                                             |
 |    242 | Valid Anagram                                      |    Easy    | [valid-anagram](leetcode-solutions/valid-anagram)                                                                           |
 |    271 | Encode and Decode Strings                          |   Medium   | [encode-and-decode-strings](leetcode-solutions/encode-and-decode-strings)                                                   |
