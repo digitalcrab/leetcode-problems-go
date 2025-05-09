@@ -93,6 +93,7 @@
 |    387 | First Unique Character in a String                 |    Easy    | [first-unique-character-in-a-string](leetcode-solutions/first-unique-character-in-a-string)                                 |
 |    412 | Fizz Buzz                                          |    Easy    | [fizz-buzz](leetcode-solutions/fizz-buzz)                                                                                   |
 |    599 | Minimum Index Sum of Two Lists                     |    Easy    | [minimum-index-sum-of-two-lists](leetcode-solutions/minimum-index-sum-of-two-lists)                                         |
+|    652 | Find Duplicate Subtrees                            |   Medium   | [find-duplicate-subtrees](leetcode-solutions/find-duplicate-subtrees)                                                       |
 |    739 | Daily Temperatures                                 |   Medium   | [daily-temperatures](leetcode-solutions/daily-temperatures)                                                                 |
 |    876 | Middle of the Linked List                          |    Easy    | [middle-of-the-linked-list](leetcode-solutions/middle-of-the-linked-list)                                                   |
 |   1342 | Number of Steps to Reduce a Number to Zero         |    Easy    | [richest-customer-wealth](leetcode-solutions/richest-customer-wealth)                                                       |
