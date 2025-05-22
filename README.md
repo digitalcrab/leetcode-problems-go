@@ -78,6 +78,7 @@
 |    150 | Evaluate Reverse Polish Notation                   |   Medium   | [evaluate-reverse-polish-notation](leetcode-solutions/evaluate-reverse-polish-notation)                                     |
 |    155 | Min Stack                                          |   Medium   | [min-stack](leetcode-solutions/min-stack)                                                                                   |
 |    169 | Majority Element                                   |    Easy    | [majority-element](leetcode-solutions/majority-element)                                                                     |
+|    170 | Two Sum III - Data structure design                |    Easy    | [two-sum-iii-data-structure-design](leetcode-solutions/two-sum-iii-data-structure-design)                                   |
 |    189 | Rotate Array                                       |   Medium   | [rotate-array](leetcode-solutions/rotate-array)                                                                             |
 |    202 | Happy Number                                       |    Easy    | [happy-number](leetcode-solutions/happy-number)                                                                             |
 |    205 | Isomorphic Strings                                 |    Easy    | [isomorphic-strings](leetcode-solutions/isomorphic-strings)                                                                 |
