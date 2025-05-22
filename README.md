@@ -56,6 +56,7 @@
 | Number | Title                                              | Difficulty | Solution                                                                                                                    |
 |-------:|:---------------------------------------------------|:----------:|:----------------------------------------------------------------------------------------------------------------------------|
 |      1 | Two Sum                                            |    Easy    | [two-sum](leetcode-solutions/two-sum)                                                                                       |
+|      3 | Longest Substring Without Repeating Characters     |   Medium   | [longest-substring-without-repeating-characters](leetcode-solutions/longest-substring-without-repeating-characters)         |
 |     12 | Integer to Roman                                   |   Medium   | [integer-to-roman](leetcode-solutions/integer-to-roman)                                                                     |
 |     13 | Roman to Integer                                   |    Easy    | [roman-to-integer](leetcode-solutions/roman-to-integer)                                                                     |
 |     14 | Longest Common Prefix                              |    Easy    | [longest-common-prefix](leetcode-solutions/longest-common-prefix)                                                           |
