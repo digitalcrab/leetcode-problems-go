@@ -94,6 +94,7 @@
 |    383 | Ransom Note                                        |    Easy    | [ransom-note](leetcode-solutions/ransom-note)                                                                               |
 |    387 | First Unique Character in a String                 |    Easy    | [first-unique-character-in-a-string](leetcode-solutions/first-unique-character-in-a-string)                                 |
 |    412 | Fizz Buzz                                          |    Easy    | [fizz-buzz](leetcode-solutions/fizz-buzz)                                                                                   |
+|    454 | 4Sum II                                            |   Medium   | [4sum-ii](leetcode-solutions/4sum-ii)                                                                                       |
 |    599 | Minimum Index Sum of Two Lists                     |    Easy    | [minimum-index-sum-of-two-lists](leetcode-solutions/minimum-index-sum-of-two-lists)                                         |
 |    652 | Find Duplicate Subtrees                            |   Medium   | [find-duplicate-subtrees](leetcode-solutions/find-duplicate-subtrees)                                                       |
 |    739 | Daily Temperatures                                 |   Medium   | [daily-temperatures](leetcode-solutions/daily-temperatures)                                                                 |
