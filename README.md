@@ -79,6 +79,7 @@
 |    142 | Linked List Cycle II                               |   Medium   | [linked-list-cycle-ii](leetcode-solutions/linked-list-cycle-ii)                                                             |
 |    150 | Evaluate Reverse Polish Notation                   |   Medium   | [evaluate-reverse-polish-notation](leetcode-solutions/evaluate-reverse-polish-notation)                                     |
 |    155 | Min Stack                                          |   Medium   | [min-stack](leetcode-solutions/min-stack)                                                                                   |
+|    160 | Intersection of Two Linked Lists                   |    Easy    | [intersection-of-two-linked-lists](leetcode-solutions/intersection-of-two-linked-lists)                                     |
 |    169 | Majority Element                                   |    Easy    | [majority-element](leetcode-solutions/majority-element)                                                                     |
 |    170 | Two Sum III - Data structure design                |    Easy    | [two-sum-iii-data-structure-design](leetcode-solutions/two-sum-iii-data-structure-design)                                   |
 |    189 | Rotate Array                                       |   Medium   | [rotate-array](leetcode-solutions/rotate-array)                                                                             |
